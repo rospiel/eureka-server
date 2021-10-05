@@ -1,0 +1,9 @@
+server:
+  port: 8761 #default
+
+eureka:
+  client:
+    # Somente como server
+    register-with-eureka: false
+    fetch-registry: false
+    # Fim somente como server
